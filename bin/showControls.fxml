@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="599.0" style="-fx-background-color: #1d3557;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sceneController">
+   <children>
+      <Label layoutX="205.0" layoutY="56.0" text="The Maze" textFill="#dd4949">
+         <font>
+            <Font name="Gill Sans Ultra Bold Condensed" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="240.0" layoutY="139.0" text="Controles" textFill="#e8e8e8">
+         <font>
+            <Font name="Lucida Console" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="173.0" prefHeight="17.0" prefWidth="276.0" text="&gt; Selección de Objetos en pantalla" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="173.0" prefHeight="17.0" prefWidth="49.0" text="Mouse" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="202.0" prefHeight="17.0" prefWidth="217.0" text="&gt; Carta 1" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="232.0" prefHeight="17.0" prefWidth="217.0" text="&gt; Carta 2" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="264.0" prefHeight="17.0" prefWidth="217.0" text="&gt; Carta 3" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="202.0" prefHeight="17.0" prefWidth="49.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="232.0" prefHeight="17.0" prefWidth="49.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="264.0" prefHeight="17.0" prefWidth="49.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="295.0" prefHeight="17.0" prefWidth="217.0" text="&gt; Lanzar carta" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="295.0" prefHeight="17.0" prefWidth="49.0" text="Enter" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="265.0" layoutY="346.0" mnemonicParsing="false" onAction="#init" style="-fx-background-color: #1d3557;" text="Volver" textFill="WHITE">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
