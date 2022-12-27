@@ -1,19 +1,11 @@
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import java.io.IOException;
-import java.util.spi.ResourceBundleControlProvider;
-
-import javax.swing.JOptionPane;
-
-import javafx.beans.Observable;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
@@ -47,6 +39,7 @@ public class difficulty implements Initializable {
     void jugar(ActionEvent event) {
         //   Change to GAME 
         // --> CODE HERE <--
+        Game game = new Game(); // EDIT THIS
         
     }
 
@@ -58,8 +51,8 @@ public class difficulty implements Initializable {
         // <-- CODE HERE -->
     }
     public void getDific(ActionEvent event) {
-		String myFood = dificultad.getValue();
-		dific.setText(myFood);
+		String diff = dificultad.getValue();
+		dific.setText(diff);
 	}
 
 }

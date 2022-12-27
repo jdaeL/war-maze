@@ -17,54 +17,24 @@
             <Font name="Lucida Console" size="22.0" />
          </font>
       </Label>
-      <Label layoutX="123.0" layoutY="173.0" prefHeight="17.0" prefWidth="276.0" text="&gt; Selección de Objetos en pantalla" textFill="WHITE">
+      <Label layoutX="51.0" layoutY="200.0" prefHeight="22.0" prefWidth="348.0" text="&gt; Selección de Objetos en pantalla" textFill="WHITE">
          <font>
-            <Font name="Consolas" size="12.0" />
+            <Font name="Consolas" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="428.0" layoutY="173.0" prefHeight="17.0" prefWidth="49.0" text="Mouse" textFill="WHITE">
+      <Label layoutX="457.0" layoutY="200.0" prefHeight="22.0" prefWidth="99.0" text="Mouse" textFill="WHITE">
          <font>
-            <Font name="Consolas" size="12.0" />
+            <Font name="Consolas" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="123.0" layoutY="202.0" prefHeight="17.0" prefWidth="217.0" text="&gt; Carta 1" textFill="WHITE">
+      <Label layoutX="51.0" layoutY="245.0" prefHeight="22.0" prefWidth="285.0" text="&gt; Rotar" textFill="WHITE">
          <font>
-            <Font name="Consolas" size="12.0" />
+            <Font name="Consolas" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="123.0" layoutY="232.0" prefHeight="17.0" prefWidth="217.0" text="&gt; Carta 2" textFill="WHITE">
+      <Label layoutX="457.0" layoutY="245.0" prefHeight="17.0" prefWidth="49.0" text="Z" textFill="WHITE">
          <font>
-            <Font name="Consolas" size="12.0" />
-         </font>
-      </Label>
-      <Label layoutX="123.0" layoutY="264.0" prefHeight="17.0" prefWidth="217.0" text="&gt; Carta 3" textFill="WHITE">
-         <font>
-            <Font name="Consolas" size="12.0" />
-         </font>
-      </Label>
-      <Label layoutX="428.0" layoutY="202.0" prefHeight="17.0" prefWidth="49.0" text="1" textFill="WHITE">
-         <font>
-            <Font name="Consolas" size="12.0" />
-         </font>
-      </Label>
-      <Label layoutX="428.0" layoutY="232.0" prefHeight="17.0" prefWidth="49.0" text="2" textFill="WHITE">
-         <font>
-            <Font name="Consolas" size="12.0" />
-         </font>
-      </Label>
-      <Label layoutX="428.0" layoutY="264.0" prefHeight="17.0" prefWidth="49.0" text="3" textFill="WHITE">
-         <font>
-            <Font name="Consolas" size="12.0" />
-         </font>
-      </Label>
-      <Label layoutX="123.0" layoutY="295.0" prefHeight="17.0" prefWidth="217.0" text="&gt; Lanzar carta" textFill="WHITE">
-         <font>
-            <Font name="Consolas" size="12.0" />
-         </font>
-      </Label>
-      <Label layoutX="428.0" layoutY="295.0" prefHeight="17.0" prefWidth="49.0" text="Enter" textFill="WHITE">
-         <font>
-            <Font name="Consolas" size="12.0" />
+            <Font name="Consolas" size="18.0" />
          </font>
       </Label>
       <Button layoutX="265.0" layoutY="346.0" mnemonicParsing="false" onAction="#init" style="-fx-background-color: #1d3557;" text="Volver" textFill="WHITE">
@@ -72,5 +42,15 @@
             <Font name="Lucida Console" size="14.0" />
          </font>
       </Button>
+      <Label layoutX="405.0" layoutY="200.0" prefHeight="22.0" prefWidth="69.0" text="...." textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="246.0" prefHeight="22.0" prefWidth="332.0" text="................................" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
