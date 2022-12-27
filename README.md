@@ -22,4 +22,9 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 Simple game based on table game I used to play in my childhood with markdowns and paper. Similar to a battleship game.
 
+## Sobre el proyecto
 
+Mediante el presente proyecto, se ha podido ejemplificar el trabajo realizado durante el transcurso de todo el taller de FP2, 
+consistiendo en la aplicación de una metodología formativa la que ha permitido aprender de manera guiada y autidactica. 
+
+En el drive estaran todos los documentos concernientes a contenidos adicionales. 
